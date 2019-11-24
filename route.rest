@@ -1,0 +1,17 @@
+// Getting all
+GET http://localhost:3000/movies/get-all
+
+// Getting One
+###
+GET http://localhost:3000/movies/get-by-id/5dd9483db60cb1326c5082bf
+
+// Creating one
+###
+POST http://localhost:3000/movies/add-movie
+Content-Type: application/json
+
+{
+    "name": "Avengers: Endgame",
+    "img": "", //add base64 of img
+    "summary": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe."
+}
